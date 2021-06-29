@@ -21,19 +21,19 @@ function UploadForm() {
   }
 
   return (
-    <form>
-      <label>
-        <input type="file" onChange={uploadHandler} />
-        <span> + </span>
+    <form className="form__upload">
+      <label className="form__upload-label">
+        <input className="form__upload-input" type="file" onChange={uploadHandler} />
+        <span className="form__upload-add">+</span>
       </label>
-      <div className="output">
+      <div className="form__output">
         { error &&
-          <div className="error">
+          <div className="form__output-error">
             { error }
           </div>
         }
         { file &&
-          <div>
+          <div className="form__output-name">
             { file.name }
           </div>
         }
