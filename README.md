@@ -6,7 +6,7 @@ This Project is a beginner friendly project I built using React. Some key Aspect
 - FireStorage;
 - Framer motion.
 
-Deployed live on firegram-11d632.netlify.app. Check out!
+Deployed live on https://firegram-11d632.netlify.app. Check out!
 
 Yooooo! 🚀
 
