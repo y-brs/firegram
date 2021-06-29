@@ -1,10 +1,15 @@
 import './App.css';
+import Title  from './components/Title';
+import UploadForm from './components/UploadForm';
+import ImageGrid from './components/ImageGrid';
 
 function App() {
   return (
-    <h1>
-      Firegram
-    </h1>
+    <div className="container">
+      <Title />
+      <UploadForm />
+      <ImageGrid />
+    </div>
   );
 }
 
